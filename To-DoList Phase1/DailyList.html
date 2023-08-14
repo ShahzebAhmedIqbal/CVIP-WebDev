@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="DailyStyles.css">
+</head>
+<body>
+  <ul>
+    <li style="float:left"><a href="Todolist.html">Home</a></li>
+    <li><a class="active" href="DailyList.html">Daily</a></li>
+    <li><a href="Weekly.html">Weekly</a></li>
+    <li><a href="Monthly.html">Monthly</a></li>
+   </ul>
+  <header class="header"></header>
+  <h1>Daily-Todolist</h1> 
+  <div class="container" id="container">
+    <input type="text" id="taskInput" class=input placeholder="Enter a task...">
+    <input type="time" class="input" id="timeInput">   
+     <button onclick="addTask()">
+      <span class="button_top"> 
+      Add
+    </span>
+    </button>
+  </div>
+  <div id="taskContainer" class="task-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
