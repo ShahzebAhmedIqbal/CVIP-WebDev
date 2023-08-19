@@ -1,0 +1,74 @@
+body {
+    
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-image:url("forest.jpg") ;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color: antiquewhite;
+
+}
+label{
+    color: antiquewhite;
+}
+.result{
+    color: antiquewhite;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.501);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+button {
+    margin: 10px;
+    padding: 8px 16px;
+    background-color: #65b1fd;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0080ff;
+}
+
+.input {
+    color: #0080ff;
+    max-width: 190px;
+    height: 30px;
+    border: 2px solid transparent;
+    outline: none;
+    border-bottom: 2px solid #3f3f3f;
+    background-color: #023567;
+    padding: 5px;
+    transition: .5s linear;
+    font-family: monospace;
+    letter-spacing: 1px;
+  }
+  
+  .input:focus {
+    border: 2px solid #0080ff;
+    caret-color: #0080ff;
+    color: #0080ff;
+    box-shadow: 4px 4px 10px #070707;
+  }
+  
+  .input:focus::placeholder {
+    color: #0080ff;
+  }
+  
