@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Code Editor</title>
+  <link rel="stylesheet" type="text/css" href="Styles.css">
+</head>
+<body>
+  <h1 class="toph1">Online Code Editor
+    <p>Edit your HTML,CSS and JavaScript code below and test your output.</p>
+  </h1>
+ 
+
+  <div class="container">
+      <div class="left">
+            <h1>HTML</h1>
+
+            <div class="Input">
+              <textarea id="code"></textarea>
+            </div>
+            
+            <h1>CSS</h1>
+
+            <div class="CssInput">
+              <textarea id="Csscode"></textarea>
+            </div>
+
+            <h1>JavaScript</h1>
+
+            <div class="JSInput">
+              <textarea id="JScode"></textarea>
+            </div>
+      
+      </div>
+    <div class="output">
+      <iframe id="output-frame"></iframe>
+    </div>
+  </div>
+<div class="run">
+  <button id="run-button">Run</button>
+</div>
+  
+  <script src="Script.js"></script>
+</body>
+</html>
